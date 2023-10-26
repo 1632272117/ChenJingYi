@@ -241,7 +241,13 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     love_date = date(love_year, love_month, love_day)
     # 获取在一起的日期差
     love_days = str(today.__sub__(love_date)).split(" ")[0]
-    
+    # 获取在一起的日子的日期格式
+    love_year_2 = int(config["love_date_2"].split("-")[0])
+    love_month_2 = int(config["love_date_2"].split("-")[1])
+    love_day_2 = int(config["love_date_2"].split("-")[2])
+    love_date_2 = date(love_year_2, love_month_2, love_day_2)
+    # 获取在一起的日期差
+    love_days_2 = str(today.__sub__(love_date_2)).split(" ")[0]
     
     # 获取相识的日子的日期格式
     love_year_1 = int(config["love_date_1"].split("-")[0])
@@ -251,14 +257,6 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     # 获取相识的日期差
     love_days_1 = str(today.__sub__(love_date_1)).split(" ")[0]
 
-
-    # 获取在一起的日子的日期格式
-    love_year_2 = int(config["love_date_2"].split("-")[0])
-    love_month_2 = int(config["love_date_2"].split("-")[1])
-    love_day_2 = int(config["love_date_2"].split("-")[2])
-    love_date_2 = date(love_year_2, love_month_2, love_day_2)
-    # 获取在一起的日期差
-    love_days_2 = str(today.__sub__(love_date_2)).split(" ")[0]
 
                      
     # 获取所有生日数据和纪念日数据
