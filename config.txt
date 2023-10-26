@@ -5,9 +5,9 @@
 # 公众号appSecret
 "app_secret": "c45226a3972075f981c9355d31aadf6e",
 # 模板消息id
-"template_id": "5GTrY1jraaIslhkOVvgdnmHcIRsgisgYWrhIp2iR3xE",
+"template_id": "WcDo94L1ZlHOeBKcAc1jN-MwKEGS1P03umqSHazrwxk",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["oBraK6PT-3BoWZplbouNsNiy6WMY"]
-"user": ["oBraK6CJZbG4lGClSVhXo-OPgRXc","oBraK6OsGVfrPAMxjOza9X2x6N14"],
+"user": ["oBraK6CJZbG4lGClSVhXo-OPgRXc",],
 
 # 信息配置
 # 所在省份
@@ -24,5 +24,6 @@
 "love_date":"2023-08-17",
 # 相识的日子
 "love_date_1":"2023-08-10"
-
+# 相恋的日子
+"love_date_2":"2023-09-10"
 }
